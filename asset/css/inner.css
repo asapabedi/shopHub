@@ -1,0 +1,26 @@
+.__getstartedOverlay {
+  display: block;
+  height: auto;
+  width: 65%;
+  margin: 5% 17.5%;
+}
+.__userHolder {
+  display: inline-table;
+  height: auto;
+  min-height: 200px;
+  width: 250px;
+  margin: 1% 2%;
+  background-color: #fff;
+}
+
+.__customizeForm {
+  display: inline-block;
+  height: auto;
+  min-height: 300px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.__white {
+  color: #fff;
+}
