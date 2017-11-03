@@ -1,12 +1,12 @@
 ## Welcome to ShopHub
 
-There is Just a lot you can do here, look around, find bugs, open issues, fork, star, watch project, hey most importantly a Open Sourced Contribution on [ShopHub](https:shop.circlepanda.com/dev/).
+There is Just a lot you can do here, look around,  Fork Repo, Find bugs, Open issues, Star Repo, Watch Project, Most Of All Contribution to this Project. [ShopHub](https:shop.circlepanda.com/dev/).
 
-Whenever you PR to this repository, We Review and Merge, Hey you're a Contributor, its okay if you tell an Employee you were part of the Developer that created ShopHub, that won't be a Problem at all. Feel free to find your name in our Official Contributors List [Contributors](https:shop.circlepanda.com/cont/).
+Whenever you PR to this repository, We Review and Merge your contribution. Guess what? You turned a Contributor, Its okay if you make reference to this Project when seeking an Employment we've got your back. You can also visit [Contributors](https:shop.circlepanda.com/cont/) to find your name in our Official Contributors List.
 
 ### Why ShopHub?
 
-I asked the same question myself, but then i realized to honest, no ShopHub or there is just something close, like Shopify, Wix, Squareup, and countless others. Technically ShopHub is a Personalized shop for all Country, with Regions as a factor to display contents.
+I asked the same question myself, but then i realized there is no ShopHub any where, (Maybe there is LOL) all there is, is just something close, like Shopify, Wix, Squareup, and countless others. Technically ShopHub is a Personalized shop for business all around the world, with Regions as a factor to display contents.
 
 ```markdown
 ShopHub Features would be Listed later off below, For now here are the Core three features
@@ -18,6 +18,19 @@ ShopHub Features would be Listed later off below, For now here are the Core thre
 ```
 
 For more details see [ShopHub features](shop.circlepanda.com/features/).
+
+```markdown
+Hey, I'm sure you're good with any of these languages this Project is for you
+
+#  HTML5
+#  CSS3
+#  JAVASCRIPT
+#  JQUERY
+#  NODE.JS
+#  PHP7
+#  SQL
+
+```
 
 ### Support or Contact
 
