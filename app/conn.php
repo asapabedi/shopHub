@@ -1,12 +1,19 @@
 <?php
-  define('BASEPATH', TRUE);
-  define('ENVIRONMENT', 'development');
-  include_once 'config/constants.php';
-  include_once 'config/database.php';
+  /* Grant Permission to App Core Files */
+  include_once 'access.php';
+  /* Define All Complex and Usuable Constants */
+  include_once 'constants.php';
+  /* Contains Arrays of Database informations */
+  include_once 'database.php';
+  /* Splitting Database Array to Needed Values */
   $db_host = $db['default']['hostname'];
   $username = $db['default']['username'];
   $password = $db['default']['password'];
   $db_name = $db['default']['database'];
-  $conn = mysqli_connect($db_host, $username, $password);
-  mysqli_select_db($conn, $db_name);
+  /* Connection Method */
+  $conn = new mysqli($db_host, $username, $password, $db_name);
+  /* Test for Connection */
+  /*
+  echo $res = ($conn) ? "Connected" : "Failed";
+  */
 ?>

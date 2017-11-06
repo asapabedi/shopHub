@@ -10,7 +10,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | of this setting
 |
 */
+defined('ENVIRONMENT') OR define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 defined('SHOW_DEBUG_BACKTRACE') OR define('SHOW_DEBUG_BACKTRACE', TRUE);
+defined('BASE_URL') OR define('BASE_URL', 'http://localhost:8888/shophub/');
 /*
 |--------------------------------------------------------------------------
 | File and Directory Modes
