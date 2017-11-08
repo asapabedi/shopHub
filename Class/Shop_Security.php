@@ -155,7 +155,7 @@ class SH_Security {
 	/**
 	 * CSRF Verify
 	 *
-	 * @return	CI_Security
+	 * @return	SH_Security
 	 */
 	public function csrf_verify()
 	{
@@ -211,7 +211,7 @@ class SH_Security {
 	 * CSRF Set Cookie
 	 *
 	 * @codeCoverageIgnore
-	 * @return	CI_Security
+	 * @return	SH_Security
 	 */
 	public function csrf_set_cookie()
 	{
@@ -254,7 +254,7 @@ class SH_Security {
 	/**
 	 * Get CSRF Hash
 	 *
-	 * @see		CI_Security::$_csrf_hash
+	 * @see		SH_Security::$_csrf_hash
 	 * @return 	string	CSRF hash
 	 */
 	public function get_csrf_hash()
@@ -267,7 +267,7 @@ class SH_Security {
 	/**
 	 * Get CSRF Token Name
 	 *
-	 * @see		CI_Security::$_csrf_token_name
+	 * @see		SH_Security::$_csrf_token_name
 	 * @return	string	CSRF token name
 	 */
 	public function get_csrf_token_name()
@@ -525,7 +525,7 @@ class SH_Security {
 	 *
 	 * Generates the XSS hash if needed and returns it.
 	 *
-	 * @see		CI_Security::$_xss_hash
+	 * @see		SH_Security::$_xss_hash
 	 * @return	string	XSS hash
 	 */
 	public function xss_hash()
@@ -761,7 +761,7 @@ class SH_Security {
 	 * Callback method for xss_clean() to remove whitespace from
 	 * things like 'j a v a s c r i p t'.
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param	array	$matches
 	 * @return	string
 	 */
@@ -777,7 +777,7 @@ class SH_Security {
 	 *
 	 * Callback method for xss_clean() to remove naughty HTML elements.
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param	array	$matches
 	 * @return	string
 	 */
@@ -872,7 +872,7 @@ class SH_Security {
 	 * and prevents PREG_BACKTRACK_LIMIT_ERROR from being triggered in
 	 * PHP 5.2+ on link-heavy strings.
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param	array	$match
 	 * @return	string
 	 */
@@ -900,7 +900,7 @@ class SH_Security {
 	 * and prevents PREG_BACKTRACK_LIMIT_ERROR from being triggered in
 	 * PHP 5.2+ on image tag heavy strings.
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param	array	$match
 	 * @return	string
 	 */
@@ -922,7 +922,7 @@ class SH_Security {
 	/**
 	 * Attribute Conversion
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param	array	$match
 	 * @return	string
 	 */
@@ -938,8 +938,8 @@ class SH_Security {
 	 *
 	 * Filters tag attributes for consistency and safety.
 	 *
-	 * @used-by	CI_Security::_js_img_removal()
-	 * @used-by	CI_Security::_js_link_removal()
+	 * @used-by	SH_Security::_js_img_removal()
+	 * @used-by	SH_Security::_js_link_removal()
 	 * @param	string	$str
 	 * @return	string
 	 */
@@ -962,7 +962,7 @@ class SH_Security {
 	/**
 	 * HTML Entity Decode Callback
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param	array	$match
 	 * @return	string
 	 */
@@ -985,7 +985,7 @@ class SH_Security {
 	/**
 	 * Do Never Allowed
 	 *
-	 * @used-by	CI_Security::xss_clean()
+	 * @used-by	SH_Security::xss_clean()
 	 * @param 	string
 	 * @return 	string
 	 */

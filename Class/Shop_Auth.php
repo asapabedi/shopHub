@@ -12,7 +12,7 @@
     {
       /* Set $conn to Database connection Access */
       $conn = $this->conn;
-      /*  */
+      /* Initiate */
     }
   }
 ?>
